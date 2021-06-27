@@ -1,0 +1,16 @@
+{
+  "name": "weather-details",
+  "version": "1.0.1",
+  "description": "Weather report app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Gaurav Shukla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}

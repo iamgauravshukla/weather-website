@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{>links}}
+    <title>Weather Hub</title>
+  </head>
+  <body id="bodyBg">
+      {{>navbar}}
+      <!-- main header  -->
+      <div class="container-fluid main_header">
+        <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="searchbar">
+                <form class="searchform">
+                    <input type="text" placeholder="Enter your city name.." autocomplete="off" id="city">
+                    <input type="submit" value="search" id="submitBtn">
+                </form>
+            </div>
+
+            <div class="temp-information">
+                <div class="top">
+                    <p id="day">Monday</p>
+                    <p id="today-date">25 May</p>
+                    <p id="time-today">12:00 pm</p>
+                </div>
+                <div class="info-layer">
+                    <p id="cityname">To view the weather report search your city first</p>
+                    <div class="middle-layer data-hide">
+                        <p id="temp"><span>0</span>°C</p>
+                        <p id="tempStatus"><i class="fa fa-cloud" aria-hidden="true"></i></p>
+                    </div>
+                    <div class="top data-hide">
+                      <p id="minMax"></p>
+                      <p id="description"></p>
+                    </div>
+                    <div class="top data-hide">
+                      <p id="humidity"></p>
+                      <p id="wind"></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer area  -->
+
+      <footer>
+        <p>
+          Designed and Developed with <span>❤</span> By Gaurav Shukla 
+        </p>
+      </footer>
+      <script src="js/main.js"></script>
+  </body>
+</html>

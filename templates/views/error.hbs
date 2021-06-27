@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {{>links}}
+    <title>Weather Hub</title>
+  </head>
+  <body>
+      {{>navbar}}
+      <!-- main header  -->
+      <div class="container-fluid main_header">
+        <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row error-msg">
+              
+            {{>errormsg}}
+            <a href="/" class="abt-btn">Go Back</a>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- footer area  -->
+
+      <footer>
+        <p>
+          Designed and Developed with <span>❤</span> By Gaurav Shukla 
+        </p>
+      </footer>
+  </body>
+</html>
